@@ -1,7 +1,7 @@
 /*
-     Name:
-     Date:
-     Class & Section:  WIA-####
+     Name: Alexander Rhett Crammer
+     Date: Monday, 1 June, 2015
+     Class & Section:  WIA-1
      Comments: "HTML5 Canvas Drawing"
  */
 
@@ -13,6 +13,14 @@ HTML5 Shape Drawing Activity
      
 ********************************************/
 
+var rectangle = document.getElementById("rectangleCanvas").getContext("2d");
+var circle = document.getElementById("circleCanvas").getContext("2d");
+var path = document.getElementById("pathCanvas").getContext("2d");
+var bezier = document.getElementById("bezierCanvas").getContext("2d");
+var text = document.getElementById("textCanvas").getContext("2d");
+var image = document.getElementById("imageCanvas").getContext("2d");
+var melange = document.getElementById("melangeCanvas").getContext("2d");
+
 /*******************************************
 FILE SETUP
 
@@ -21,7 +29,6 @@ FILE SETUP
 // Link the main.js file
 // Setup the call to that canvas and get it's 2d context
 //Use Modernizr to verify that your browser supports canvas, include a fallback message
-
 
 /*******************************************
 PART 1
@@ -35,7 +42,10 @@ Reminder - set the style first then draw.
 ********************************************/
 
 //Draw Rectangle here
-
+rectangle.fillStyle = "#007aff";
+rectangle.strokeStyle = "black";
+rectangle.fillRect(0, 0, 50, 100);
+rectangle.strokeRect(0, 0, 50, 100);
 
 /*******************************************
 PART 2
@@ -51,8 +61,6 @@ Use the arc method
 
 
 //Draw Circle here
-
-
 
 
 /*******************************************
