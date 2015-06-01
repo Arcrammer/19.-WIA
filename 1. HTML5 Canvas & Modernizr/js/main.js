@@ -163,6 +163,35 @@ window.onload = function () {
   ********************************************/
   
   // Draw scene here
+  melange.fillStyle = "#edbeda";
+  melange.fillRect(0, 0, 800, 900);
   
-
+  var italian = document.getElementById("italian");
+  melange.drawImage(italian, 315, 15);
+  
+  setInterval(function () {}, 30);
+  
+  melange.fillStyle = "#FF9060";
+  melange.font = "20pt Comic Sans, Comic Sans MS, script";
+  melange.fillText("wat", 50, 50);
+  
+  melange.fillStyle = "brown";
+  melange.beginPath();
+  melange.moveTo(100, 230);
+  melange.bezierCurveTo(100, 10, 300, 10, 300, 100);
+  melange.closePath();
+  melange.fill();
+  
+  melange.fillStyle = "#cc9933";
+  melange.font = "22pt Comic Sans, Comic Sans MS, script";
+  melange.fillText("not brown", 550, 100);
+  
+  melange.fillStyle = "#75b625";
+  melange.font = "15pt Comic Sans, Comic Sans MS, script";
+  melange.fillText("alexander mcqueen", 300, 225);
+  
+  melange.fillStyle = "#4fdc90";
+  melange.font = "26pt Comic Sans, Comic Sans MS, script";
+  melange.fillText("name romaine", 75, 125);
+  
 };
