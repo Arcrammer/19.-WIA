@@ -80,7 +80,22 @@ Height and width and color are up to you.
 
 
 //Draw Star here
-
+path.fillStyle = "gold";
+path.strokeStyle = "#555";
+path.beginPath();
+path.moveTo(100, 100);
+path.lineTo(115, 150);
+path.lineTo(175, 150);
+path.lineTo(125, 180);
+path.lineTo(150, 235);
+path.lineTo(100, 200);
+path.lineTo(50, 235);
+path.lineTo(75, 180);
+path.lineTo(25, 150);
+path.lineTo(85, 150);
+path.closePath();
+path.fill();
+path.stroke();
 
 /*******************************************
 PART 4
