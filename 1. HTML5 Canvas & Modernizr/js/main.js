@@ -110,6 +110,16 @@ Do not overlap any other object.
 ********************************************/
 
 //Draw Umbrella top here
+bezier.strokeStyle = "red";
+bezier.lineWidth = 5;
+bezier.beginPath();
+bezier.moveTo(100, 100);
+bezier.bezierCurveTo(100, 100, 185, -15, 300, 100);
+bezier.bezierCurveTo(300, 100, 250, 75, 225, 100);
+bezier.bezierCurveTo(300, 75, 115, 75, 175, 100);
+bezier.bezierCurveTo(300, 75, 15, 75, 100, 100);
+bezier.closePath();
+bezier.stroke();
 
 /*******************************************
 PART 5
@@ -120,6 +130,7 @@ Draw text into your canvas.  It can said whatever you would like in any color.
 ********************************************/
 
 //Draw text here
+
 
 /*******************************************
 PART 6
