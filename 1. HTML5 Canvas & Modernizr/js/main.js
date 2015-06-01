@@ -114,6 +114,20 @@ window.onload = function () {
   bezier.lineWidth = 5;
   bezier.beginPath();
   bezier.moveTo(100, 100);
+  
+  /*
+    
+    This was hijacked from https://github.com/mit20/WIA/blob/master/Torres_Marlon_Homework1/js/main.js and
+    it's exactly what I need, but I still don't understand how .bezierCurveTo() works
+    
+    bezier.bezierCurveTo(150, 20, 250, 20, 300, 100);
+    bezier.bezierCurveTo(280, 90, 270, 90, 250, 100);
+    bezier.bezierCurveTo(230, 90, 220, 90, 200, 100);
+    bezier.bezierCurveTo(180, 90, 170, 90, 150, 100);
+    bezier.bezierCurveTo(130, 90, 120, 90, 100, 100);
+    
+  */
+  
   bezier.bezierCurveTo(100, 10, 300, 10, 300, 100);
   bezier.bezierCurveTo(120, 80, 140, 90, 100, 100);
   bezier.closePath();
@@ -168,8 +182,6 @@ window.onload = function () {
   
   var italian = document.getElementById("italian");
   melange.drawImage(italian, 315, 15);
-  
-  setInterval(function () {}, 30);
   
   melange.fillStyle = "#FF9060";
   melange.font = "20pt Comic Sans, Comic Sans MS, script";
