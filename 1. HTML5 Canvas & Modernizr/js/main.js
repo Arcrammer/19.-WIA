@@ -130,7 +130,9 @@ Draw text into your canvas.  It can said whatever you would like in any color.
 ********************************************/
 
 //Draw text here
-
+text.fillStyle = "deeppink";
+text.font = "100 16pt Avenir, Helvetica Neue, sans-serif";
+text.fillText("Hello! My name is Alexander and I am not Italian.", 50, 50);
 
 /*******************************************
 PART 6
@@ -146,7 +148,6 @@ Reminder to use the drawImage method for all 3 of the ways.
 ********************************************/
 
 //Draw images here
-
 
 
 /*******************************************
