@@ -59,9 +59,13 @@ Reminder - set the style first then draw.
 Use the arc method
 ********************************************/
 
-
 //Draw Circle here
-
+circle.fillStyle = "rgba(255, 0, 0, 0.5)";
+circle.arc(50, 50, 20, 0, 2 * Math.PI);
+circle.fill();
+circle.strokeStyle = "black";
+circle.arc(50, 50, 30, 0, 2 * Math.PI);
+circle.stroke();
 
 /*******************************************
 PART 3
