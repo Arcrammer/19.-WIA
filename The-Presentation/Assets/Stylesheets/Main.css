@@ -1,0 +1,16 @@
+/*  Main.css
+    Tuesday, 2 June, 2015
+    
+    The Presentation
+    Alexander Rhett Crammer
+    Full Sail University  */
+
+.reveal h2 {
+  font-size: 1.2em;
+  margin-bottom: 5%;
+}
+
+.reveal p {
+  font-size: 0.7em;
+  line-height: 200%;
+}
