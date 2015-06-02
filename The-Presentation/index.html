@@ -4,15 +4,15 @@
 		<title>The Presentation by Alexander</title>
 		<!-- Metadata -->
   		<meta charset="utf-8">
-  		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-  		<meta name="author" content="Hakim El Hattab">
+  		<meta name="description" content="Presentation of Plyr by Selz">
+  		<meta name="author" content="Alexander Rhett Crammer">
   		<meta name="apple-mobile-web-app-capable" content="yes" />
   		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
     
     <!-- Links -->
   		<link rel="stylesheet" href="css/reveal.css">
-  		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+  		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
   		<link rel="stylesheet" href="Assets/Plyr/plyr.css">
   		<!-- Code syntax highlighting -->
     		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -47,7 +47,7 @@
 
 				<section>
 					<h2>What is Plyr?</h2>
-					<p>Plyr is an HTML5 video player written mostly in JavaScript and CSS. It's design is both beautiful and functional. It's also very user friendly and easy to use!</p>
+					<p>Plyr is an HTML5 video player written mostly in JavaScript and CSS. It's design is both beautiful and functional. It's also very user friendly and easy to implement!</p>
 				</section>
 
 				<!-- Example of nested vertical slides -->
@@ -58,6 +58,15 @@
 					</section>
 					<section>
   					<!-- TODO: Add a demo of Plyr here -->
+  					<div class="player">
+    					<video poster="Assets/Images/ShanghaiNight.jpg" controls>
+      					<!-- Sources -->
+      					<source src="Assets/Videos/ShanghaiNight.ogv" type="video/ogg">
+      					<source src="Assets/Videos/ShanghaiNight.mp4" type="video/mp4">
+      					<!-- Fallback -->
+      					<p>Unfortunately your browser doesn't support videos.</p>
+    					</video>
+  					</div> <!-- .player -->
 					</section>
 					<section>
 						<h2>Basement Level 2</h2>
@@ -367,7 +376,17 @@ Reveal.addEventListener( 'customevent', function() {
 			</div>
 
 		</div>
-
+    
+    <!-- Scripts -->
+    <script>
+      /* Start Plyr; This applies all of its' functionality and style to the "video.player" elements. */
+      plyr.setup({
+        "controls": ["restart", "play", "fast-forward", "current-time", "duration", "mute", "volume"],
+        "debug": true,
+        "click": true // Tap or click the video to toggle play and pause
+        
+      });
+    </script>
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
