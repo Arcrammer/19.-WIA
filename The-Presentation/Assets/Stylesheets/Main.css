@@ -6,12 +6,42 @@
     Full Sail University  */
 
 /* Content */
+.reveal h1 {
+  font-size: 2.5em;
+  margin-bottom: 6.5%;
+}
+
 .reveal h2 {
   font-size: 1.2em;
   margin-bottom: 5%;
 }
 
 .reveal p {
+  color: #555;
   font-size: 0.7em;
   line-height: 200%;
+  text-shadow: 1px 1px white;
+}
+
+.reveal code {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid #ddd;
+  border-radius: 6.5px;
+  font-size: 0.75em;
+  margin: auto 0.5%;
+  padding: 0.5% 0.75%;
+}
+
+.reveal a:link, .reveal a:visited {
+  color: #ff702e;
+}
+
+.reveal a:hover {
+  color: #ff9e71;
+  text-decoration: underline;
+}
+
+.reveal a:active {
+  color: #c76e44;
+  text-decoration: underline;
 }
