@@ -34,30 +34,26 @@
     		<script src="lib/js/html5shiv.js"></script>
     		<![endif]-->
   </head>
-  <body class="vide-background" data-vide-bg="Assets/Videos/Bokeh">
+  <body data-vide-bg="Assets/Videos/Bokeh">
     <div class="reveal">
-      <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
         <section>
           <h1>The Presentation</h1>
-          <p>Created by <a href="http://github.com/Arcrammer/19.-WIA/tree/master/The-Presentation/">Alexander</a> for Full Sail University</p>
+          <p>Created by <a href="http://github.com/Arcrammer/19.-WIA/tree/master/The-Presentation/" target="_blank">Alexander</a> for Full Sail University</p>
           <p>June 2015</p>
         </section>
         <section>
           <h2>What is Plyr?</h2>
-          <p>Plyr is an HTML5 video player written mostly in JavaScript and CSS. It's design is both beautiful and functional. It was created this February (2015) by <a href="http://github.com/SamPotts">Sam Potts</a> who is a developer for <a href="http://selz.com/">Selz</a>, a company in Syndey. You can find <a href="http://github.com/Selz/plyr" target="_blank">Plyr over at GitHub</a>.</p>
-          <p>Implementing Plyr couldn't be more simple. All you'll need to do is import both <code>dist/plyr.js</code> and <code>dist/plyr.css</code> and make a call to <code>plyr.setup()</code> in a <code>script</code> element.</p>
+          <p>Plyr is an HTML5 video player written mostly in JavaScript and CSS. It's design is both beautiful and functional. It was created this February (2015) by <a href="http://github.com/SamPotts" target="_blank">Sam Potts</a> who is a developer for <a href="http://selz.com/">Selz</a>, an ecommerce company in Syndey! You can find <a href="http://github.com/Selz/plyr" target="_blank">Plyr over at GitHub</a>.</p>
         </section>
-        <!-- Example of nested vertical slides -->
         <section>
           <section>
             <h2>Show me!</h2>
-            <p>Let's look at the way it behaves and how it handles videos.</p>
+            <p>That's enough chatting. Let's see it live!</p>
           </section>
           <section>
-            <!-- TODO: Add a demo of Plyr here -->
             <div class="player">
-              <video poster="Assets/Images/ShanghaiNight.jpg" controls>
+              <video poster="Assets/Images/ShanghaiNight.jpg" autoplay>
                 <!-- Sources -->
                 <source src="Assets/Videos/ShanghaiNight.ogv" type="video/ogg">
                 <source src="Assets/Videos/ShanghaiNight.mp4" type="video/mp4">
@@ -65,22 +61,29 @@
                 <p>Unfortunately your browser doesn't support videos.</p>
               </video>
             </div>
-            <!-- .player -->
           </section>
         </section>
         <section>
-          <h2>Who is the developer of Plyr?</h2>
-          <p>Plyr was made by <a href="http://github.com/SamPotts">Sam Potts</a> and first pushed to GitHub in February, 2015. <a href="http://github.com/Selz/plyr/graphs/contributors">Other developers</a> have also helped, but Sam has made more than 95% of the commits.</p>
+          <h2>Okay that's neat. How did you do that, though?</h2>
+          <p>Implementing Plyr couldn't be more simple. Download <a href="http://github.com/Selz/plyr" target="_blank">the Plyr repository</a> and move the three files in the <code>dist</code> directory to your asset directory.</p>
+          <p>Now you're ready to start Plyr! There are just a few more things you need to do.</p>
         </section>
         <section>
-          <h2>Installation</h2>
-          <p>Installing Plyr is as simple as downloading it from GitHub and including the files from the <code>dist</code> directory.</p>
-          <p>Next, throw some <code>video</code> tags in a <code>div</code> with the class <code>player</code>. After doing that, call <code>plyr.setup()</code> optionally passing an object with configuration.</p>
-          <p>That's all there is to do!</p>
+          <h2>Final Set-up of Plyr</h2>
+          <p>All you'll need to do is import both <code>dist/plyr.js</code> and <code>dist/plyr.css</code> then make a call to <code>plyr.setup()</code> in a <code>script</code> element. You can also pass an object to <code>plyr.setup()</code> with configuration settings.</p>
+          <p>Next, throw a <code>video</code> tag into a <code>div</code> with the class <code>player</code>. After doing that, call <code>plyr.setup()</code> and <a href="https://github.com/Selz/plyr#svg" target="_blank">the self-executing AJAX call</a> to load Plyr's icons.</p>
+        </section>
+        <section>
+          <h2>One More Thing</h2>
+          <p>I've also used a second plug-in which is called Vide. It allowed me to achieve the lovely background video without putting a lot of effort and time into the development necessary to bring it to life.</p>
+          <p>It was as easy as downloading <a href="https://github.com/VodkaBears/Vide" target="_blank">Vide</a> then including both jQuery and <code>dist/jquery.vide.min.js</code>. After that I'd set the <code>data-</code> attribute <code>data-vide-bg</code> to my <code>body</code> object with a value of the path (and name) of my video.</p>
         </section>
         <section>
           <h1>The end!</h1>
           <p>Thanks for watching. Goodbye!</p>
+          <br />
+          <p><small>P.S. Sorry if your computer is as hot as mine.</small></p>
+          <p><small>* makes omelette *</small></p>
         </section>
       </div> <!-- .slides -->
     </div> <!-- .reveal -->
@@ -88,7 +91,6 @@
       <script>
         /* Start Plyr; This applies all of its' functionality and style to the "video.player" elements. */
         plyr.setup({
-          "controls": ["restart", "play", "fast-forward", "current-time", "duration", "mute", "volume"],
           "debug": false,
           "click": true // Tap or click the video to toggle play and pause
         });
@@ -139,6 +141,21 @@
   			    async: true
   			  }]
   			});
+      </script>
+      <script>
+        // Load the icons for Plyr's interface
+        (function(d,p){
+            var a=new XMLHttpRequest(),
+                b=d.body;
+            a.open("GET",p,!0);
+            a.send();
+            a.onload=function(){
+                var c=d.createElement("div");
+                c.style.display="none";
+                c.innerHTML=a.responseText;
+                b.insertBefore(c,b.childNodes[0])
+            }
+        })(document,"/19.-WIA/The-Presentation/Assets/Plyr/dist/sprite.svg");
       </script>
     </body>
   </html>
