@@ -19,9 +19,7 @@
         <link rel="stylesheet" href="lib/css/zenburn.css">
     
     <!-- Scripts -->
-      <script src="Assets/Scripts/jquery-2.1.4.min.js"></script>
       <script src="Assets/Plyr/dist/plyr.js"></script>
-      <script src="Assets/Vide/dist/jquery.vide.js"></script>
       <!-- Printing and PDF exports -->
         <script>
           var link = document.createElement('link');
@@ -35,7 +33,6 @@
     		<![endif]-->
   </head>
   <body>
-    <div class="vide-background" data-vide-bg="Assets/Videos/Bokeh">
     <div class="reveal">
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
@@ -83,62 +80,62 @@
           <p>Thanks for watching. Goodbye!</p>
         </section>
       </div> <!-- .slides -->
-      <!-- Scripts -->
-        <script>
-          /* Start Plyr; This applies all of its' functionality and style to the "video.player" elements. */
-          plyr.setup({
-            "controls": ["restart", "play", "fast-forward", "current-time", "duration", "mute", "volume"],
-            "debug": false,
-            "click": true // Tap or click the video to toggle play and pause
+    </div> <!-- .reveal -->
+    <!-- Scripts -->
+      <script>
+        /* Start Plyr; This applies all of its' functionality and style to the "video.player" elements. */
+        plyr.setup({
+          "controls": ["restart", "play", "fast-forward", "current-time", "duration", "mute", "volume"],
+          "debug": false,
+          "click": true // Tap or click the video to toggle play and pause
+        });
+      </script>
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.js"></script>
+      <script>
+  			// Full list of configuration options available at:
+  			// https://github.com/hakimel/reveal.js#configuration
+  			Reveal.initialize({
+  			  controls: true,
+  			  progress: true,
+  			  history: true,
+  			  center: true,
   
-          });
-        </script>
-        <script src="lib/js/head.min.js"></script>
-        <script src="js/reveal.js"></script>
-        <script>
-    			// Full list of configuration options available at:
-    			// https://github.com/hakimel/reveal.js#configuration
-    			Reveal.initialize({
-    			  controls: true,
-    			  progress: true,
-    			  history: true,
-    			  center: true,
-    
-    			  transition: 'slide', // none/fade/slide/convex/concave/zoom
-    
-    			  // Optional reveal.js plugins
-    			  dependencies: [{
-    			    src: 'lib/js/classList.js',
-    			    condition: function() {
-    			      return !document.body.classList;
-    			    }
-    			  }, {
-    			    src: 'plugin/markdown/marked.js',
-    			    condition: function() {
-    			      return !!document.querySelector('[data-markdown]');
-    			    }
-    			  }, {
-    			    src: 'plugin/markdown/markdown.js',
-    			    condition: function() {
-    			      return !!document.querySelector('[data-markdown]');
-    			    }
-    			  }, {
-    			    src: 'plugin/highlight/highlight.js',
-    			    async: true,
-    			    condition: function() {
-    			      return !!document.querySelector('pre code');
-    			    },
-    			    callback: function() {
-    			      hljs.initHighlightingOnLoad();
-    			    }
-    			  }, {
-    			    src: 'plugin/zoom-js/zoom.js',
-    			    async: true
-    			  }, {
-    			    src: 'plugin/notes/notes.js',
-    			    async: true
-    			  }]
-    			});
-        </script>
+  			  transition: 'slide', // none/fade/slide/convex/concave/zoom
+  
+  			  // Optional reveal.js plugins
+  			  dependencies: [{
+  			    src: 'lib/js/classList.js',
+  			    condition: function() {
+  			      return !document.body.classList;
+  			    }
+  			  }, {
+  			    src: 'plugin/markdown/marked.js',
+  			    condition: function() {
+  			      return !!document.querySelector('[data-markdown]');
+  			    }
+  			  }, {
+  			    src: 'plugin/markdown/markdown.js',
+  			    condition: function() {
+  			      return !!document.querySelector('[data-markdown]');
+  			    }
+  			  }, {
+  			    src: 'plugin/highlight/highlight.js',
+  			    async: true,
+  			    condition: function() {
+  			      return !!document.querySelector('pre code');
+  			    },
+  			    callback: function() {
+  			      hljs.initHighlightingOnLoad();
+  			    }
+  			  }, {
+  			    src: 'plugin/zoom-js/zoom.js',
+  			    async: true
+  			  }, {
+  			    src: 'plugin/notes/notes.js',
+  			    async: true
+  			  }]
+  			});
+      </script>
     </body>
   </html>
