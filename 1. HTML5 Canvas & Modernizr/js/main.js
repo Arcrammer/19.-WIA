@@ -129,7 +129,9 @@ window.onload = function () {
   */
   
   bezier.bezierCurveTo(100, 10, 300, 10, 300, 100);
-  bezier.bezierCurveTo(120, 80, 140, 90, 100, 100);
+  bezier.bezierCurveTo(280, 90, 270, 90, 250, 100);
+  bezier.bezierCurveTo(220, 90, 200, 90, 175, 100);
+  bezier.bezierCurveTo(180, 90, 80, 90, 100, 100);
   bezier.closePath();
   bezier.stroke();
   
