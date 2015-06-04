@@ -102,6 +102,11 @@ a:active {
   color: #3e454c;
 }
 
+/* Backgrounds */
+.shanghai {
+  width: 100%;
+}
+
 /* Fonts */
 @font-face {
   font-family: "Abigail";
