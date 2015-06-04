@@ -10,6 +10,10 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
 /* Structure */
+body {
+  background-color: #fd7f6a;
+}
+
 .container {
   margin: auto;
   width: 80%;
@@ -17,7 +21,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Top Bar */
 .top-bar {
-  background-color: #fd7f6a;
   box-shadow: inset 0em -1px #cbcbcb, 0 0 1px 1px #cbcbcb;
   color: #fff;
   margin: auto;
@@ -104,7 +107,103 @@ a:active {
 
 /* Backgrounds */
 .shanghai {
+  box-shadow: inset 0em -1px #cbcbcb, 0 0 1px 1px #cbcbcb;
   width: 100%;
+}
+
+/* Panels */
+.panels {
+  margin: 2.5% 2.44140625%;
+  overflow: auto;
+  width: 95.1171875%;
+}
+
+.panel {
+  float: left;
+  text-align: center;
+  width: 33.333333334%;
+}
+
+.panels h4 {
+  color: #fff;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  margin: 2.5% auto 10%;
+  text-transform: uppercase;
+}
+
+.panel-content {
+  background-color: #fefefe;
+  border-radius: 5px;
+  margin: 4.6202714409%;
+  padding: 4.6202714409%;
+}
+
+.panel img {
+  width: 100%;
+}
+
+.panel .image-clip {
+  height: 25em;
+  overflow: hidden;
+}
+
+.panel:first-of-type .image-clip img {
+  /* Set the images positions */
+  position: relative;
+  top: -16.5%;
+  right: 22.5%;
+  width: 130%;
+}
+
+.panel:first-of-type p {
+  padding-top: 6.5%;
+}
+
+.panel:nth-of-type(2) p {
+  padding-top: 6.5%;
+}
+
+.panel:nth-of-type(2) .image-clip img {
+  position: relative;
+  right: 50%;
+  width: 225%;
+}
+
+.panel:nth-of-type(3) p {
+  padding-top: 6.5%;
+}
+
+.panel:nth-of-type(3) .image-clip img {
+  position: relative;
+  right: 75%;
+  width: 240%;
+}
+
+.panel p {
+  color: #555;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 0.15px;
+  line-height: 1.75em;
+  padding: 0 1.8887970724% 5.6663912171%;
+}
+
+.panel .button {
+  background-color: #48ADF0;
+  border: 2px solid #3092D2;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+  margin: 2.5% auto;
+  padding: 0.75em 1.25em;
+  width: intrinsic;
+}
+
+.panel a:link, .panel a:visited, .panel a:hover, .panel a:active {
+  text-decoration: none;
 }
 
 /* Fonts */
