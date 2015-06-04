@@ -111,6 +111,17 @@ a:active {
   width: 100%;
 }
 
+.video-overlay {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  width: 100%;
+}
+
+.video-overlay img {
+  width: 25%;
+}
+
 /* Panels */
 .panels {
   margin: 2.5% 2.44140625%;
@@ -202,8 +213,18 @@ a:active {
   width: intrinsic;
 }
 
-.panel a:link, .panel a:visited, .panel a:hover, .panel a:active {
+.panel a:link, .panel a:visited {
   text-decoration: none;
+  transition: background-color 100ms, border-color 100ms;
+}
+
+.panel a:hover {
+  background-color: #63BCF7;
+}
+
+.panel a:active {
+  background-color: #2682BE;
+  border-color: #3092D2;
 }
 
 /* Fonts */
