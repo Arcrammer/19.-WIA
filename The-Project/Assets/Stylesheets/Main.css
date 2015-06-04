@@ -5,3 +5,105 @@
     Alexander Rhett Crammer
     Full Sail University  */
 
+/* Master Reset */
+/*  This reset was found at http://meyerweb.com/eric/tools/css/reset/. It's version is 2.0, 20110126  */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Structure */
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+/* Top Bar */
+.top-bar {
+  background-color: #fd7f6a;
+  box-shadow: inset 0em -1px #cbcbcb, 0 0 1px 1px #cbcbcb;
+  color: #fff;
+  margin: auto;
+  padding: 1%;
+  text-align: center;
+}
+
+.top-bar * {
+  display: inline-block;
+}
+
+/* Top Bar Navigation */
+.top-bar-left, .top-bar-right {
+  vertical-align: super;
+  width: 34.584980237%;
+}
+
+.top-bar-left {
+  text-align: left;
+}
+
+.top-bar-right {
+  text-align: right;
+}
+
+/* Top Bar Links */
+.top-bar a {
+  padding: 20px;
+}
+
+.top-bar a:link, .top-bar a:visited {
+  color: #fff;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.top-bar a:hover {
+  color: #dcdcdc;
+}
+
+.top-bar a:active {
+  color: #888;
+}
+
+/* Title */
+.top-bar header {
+  font-family: "Abigail", sans-serif;
+  font-size: 2.5em;
+  margin-top: 1.5%;
+}
+
+/* Search Field */
+.top-bar-right input {
+  background-image: url("../Images/MagnifyingGlass.png");
+  background-position: 6.5%;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  border: 2px solid #cbcbcb;
+  border-radius: 50px;
+  font-family: "Georgia", serif;
+  font-size: 0.9em;
+  font-style: italic;
+  padding: 10px 10px;
+  text-indent: 35px;
+  width: 175px;
+}
+
+/* Links */
+a:link, a:visited {
+  color: #81cffb;
+}
+
+a:hover {
+  color: #2986c3;
+}
+
+a:active {
+  color: #3e454c;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Abigail";
+  src: url("../Fonts/Abigail.ttf");
+}
