@@ -94,31 +94,49 @@ body {
 
 /* Links */
 a:link, a:visited {
-  color: #81cffb;
+  color: #5F5F5F;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: color 75ms;
 }
 
 a:hover {
   color: #2986c3;
+  font-family: "Georgia", serif;
+  font-style: italic;
 }
 
 a:active {
   color: #3e454c;
 }
 
-/* Backgrounds */
-.shanghai {
+/* CTA */
+.cta-container {
+  background-color: aquamarine;
   box-shadow: inset 0em -1px #cbcbcb, 0 0 1px 1px #cbcbcb;
+  height: 550px;
+  overflow: hidden;
   width: 100%;
 }
 
-.video-overlay {
-  position: absolute;
-  top: 20%;
-  text-align: center;
+.cta-container video {
   width: 100%;
 }
 
-.video-overlay img {
+.cta-container img[alt="Greeting.png"] {
+  position: relative;
+  top: -95%;
+  left: 36.5%;
+  width: 25%;
+}
+
+.cta-container img[alt="MeetTheTeam.png"] {
+  position: relative;
+  top: -90%;
+  left: 40%;
   width: 25%;
 }
 
@@ -225,6 +243,82 @@ a:active {
 .panel a:active {
   background-color: #2682BE;
   border-color: #3092D2;
+}
+
+/* Footer */
+footer {
+  background-color: #f5f6f6;
+  padding-top: 1%;
+}
+
+.footer-group {
+  overflow: auto;
+  padding: 2.5%;
+  width: 35%;
+}
+
+footer h4 {
+  color: #383838;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 6.5%;
+  text-transform: uppercase;
+}
+
+/* Quick Links */
+.footer-group:first-of-type a {
+  display: block;
+  margin: 5% auto auto 2.5%;
+}
+
+/* Social Links */
+.footer-group:nth-of-type(2) li {
+  /* Social Bubbles */
+  float: left;
+  margin: 2.5%;
+  width: 8.9288049876%;
+}
+
+.footer-group:nth-of-type(2) img {
+  width: 100%; /* Prevent social bubbles from spilling */
+}
+
+.footer-group:nth-of-type(2) li:nth-child(6) {
+  /* Sixth Social Bubble */
+  clear: left;
+}
+
+/* Subscription Email Address Field */
+.footer-group:nth-of-type(3) form {
+  margin-left: 2.5%;
+}
+
+.footer-group:nth-of-type(3) input[type="text"] {
+  border: 1.5px solid #d7d7d7;
+  font-size: 0.75em;
+  letter-spacing: 0.25px;
+  padding: 3.5% 0;
+  text-indent: 6.5%;
+  width: 62.5%;
+}
+
+.footer-group:nth-of-type(3) input[type="text"]:hover, .footer-group:nth-of-type(3) input[type="text"]:focus {
+  font-family: "Georgia", serif;
+  font-style: italic;
+}
+
+.footer-group:nth-of-type(3) input[type="submit"] {
+  background-color: #4cd964;
+  border: 2px solid #43bf58;
+  color: #fff;
+  font-size: 1.5em;
+  position: relative;
+  top: 0.15em;
+  left: -0.15em;
+  height: 42.5px;
+  width: 42.5px;
 }
 
 /* Fonts */
