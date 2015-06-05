@@ -228,7 +228,7 @@ a:active {
   font-size: 1em;
   margin: 2.5% auto;
   padding: 0.75em 1.25em;
-  width: intrinsic;
+  width: 35%;
 }
 
 .panel a:link, .panel a:visited {
