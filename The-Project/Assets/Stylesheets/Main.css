@@ -248,10 +248,15 @@ a:active {
 /* Footer */
 footer {
   background-color: #f5f6f6;
-  padding-top: 1%;
+  padding-top: 5%;
+  overflow: auto;
 }
 
 .footer-group {
+  clear: left;
+  float: left;
+  position: relative;
+  left: 6.5%;
   overflow: auto;
   padding: 2.5%;
   width: 35%;
@@ -319,6 +324,14 @@ footer h4 {
   left: -0.15em;
   height: 42.5px;
   width: 42.5px;
+}
+
+/* Mobile Feature */
+img[alt="MobileDevices.jpg"] {
+  float: right;
+  position: relative;
+  right: 6.5%;
+  width: 35%;
 }
 
 /* Fonts */
