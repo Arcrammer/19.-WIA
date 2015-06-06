@@ -19,13 +19,19 @@ body {
   width: 80%;
 }
 
-/* Top Bar */
-.top-bar {
-  box-shadow: inset 0em -1px #cbcbcb, 0 0 1px 1px #cbcbcb;
+/* Top and Bottom Bars */
+.bar {
+  background-color: transparent;
   color: #fff;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   margin: auto;
   padding: 1%;
   text-align: center;
+}
+
+/* Top Bar */
+.top-bar {
+  box-shadow: inset 0em -1px #cbcbcb, 0 0 1px 1px #cbcbcb;
 }
 
 .top-bar * {
@@ -128,15 +134,15 @@ a:active {
 
 .cta-container img[alt="Greeting.png"] {
   position: relative;
-  top: -95%;
+  top: -5%;
   left: 36.5%;
   width: 25%;
 }
 
 .cta-container img[alt="MeetTheTeam.png"] {
   position: relative;
-  top: -90%;
-  left: 40%;
+  top: 0;
+  left: 36.5%;
   width: 25%;
 }
 
@@ -248,7 +254,7 @@ a:active {
 /* Footer */
 footer {
   background-color: #f5f6f6;
-  padding-top: 5%;
+  padding: 5% 0;
   overflow: auto;
 }
 
@@ -332,6 +338,35 @@ img[alt="MobileDevices.jpg"] {
   position: relative;
   right: 6.5%;
   width: 35%;
+}
+
+/* Bottom Bar */
+.bottom-bar {
+  box-shadow: 0 0 1px 1px #cbcbcb;
+  font-size: 0.85em;
+  line-height: 150%;
+  padding: 2.5%;
+  text-align: center;
+}
+
+.bottom-bar header {
+  padding-top: 2.5%;
+  font-family: "Abigail";
+  font-size: 3em;
+  margin: auto;
+  position: relative;
+  top: 0.5em;
+  width: 30%;
+}
+
+.bottom-bar p:nth-of-type(1) {
+  float: left;
+  width: 30%;
+}
+
+.bottom-bar p:nth-of-type(2) {
+  float: right;
+  width: 30%;
 }
 
 /* Fonts */
