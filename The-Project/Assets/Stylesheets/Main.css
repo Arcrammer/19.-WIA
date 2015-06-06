@@ -124,6 +124,7 @@ a:active {
   background-color: aquamarine;
   box-shadow: inset 0em -1px #cbcbcb, 0 0 1px 1px #cbcbcb;
   height: 550px;
+  position: relative;
   overflow: hidden;
   width: 100%;
 }
@@ -144,6 +145,31 @@ a:active {
   top: 0;
   left: 36.5%;
   width: 25%;
+}
+
+.cta-overlay {
+/*   background-color: rgba(0,0,0,0.5); */
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#greeting, #meatTheTeem {
+  position: relative;
+  top: 0;
+}
+
+#greeting-dark {
+  position: absolute;
+  top: -50%;
+}
+
+#meatTheTeem {
+  left: 12.5%
 }
 
 /* Panels */
@@ -308,8 +334,8 @@ footer h4 {
 
 .footer-group:nth-of-type(3) input[type="text"] {
   border: 1.5px solid #d7d7d7;
-  font-size: 0.75em;
   letter-spacing: 0.25px;
+  font-size: 0.75em;
   padding: 3.5% 0;
   text-indent: 6.5%;
   width: 62.5%;
@@ -321,15 +347,11 @@ footer h4 {
 }
 
 .footer-group:nth-of-type(3) input[type="submit"] {
-  background-color: #4cd964;
+  background-color: #4cd963;
   border: 2px solid #43bf58;
   color: #fff;
   font-size: 1.5em;
-  position: relative;
-  top: 0.15em;
-  left: -0.15em;
-  height: 42.5px;
-  width: 42.5px;
+  padding: 1% 4.5% 3.25%;
 }
 
 /* Mobile Feature */
@@ -349,7 +371,7 @@ img[alt="MobileDevices.jpg"] {
   text-align: center;
 }
 
-.bottom-bar header {
+.bottom-bar h3 {
   padding-top: 2.5%;
   font-family: "Abigail";
   font-size: 3em;
