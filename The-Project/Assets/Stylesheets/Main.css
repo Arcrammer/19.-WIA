@@ -119,6 +119,58 @@ a:active {
   color: #3e454c;
 }
 
+/* Store Welcome Message */
+.store-description {
+  background: url("../Images/TimesSquare.jpg") no-repeat center 15%;
+  background-size: cover;
+  color: #fff;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  height: 475px;
+  text-align: center;
+}
+
+.store-description h4 {
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 10% 0 5%;
+  text-shadow: 2px 0 0 #81cffb, -2px 0 0 #fd7f6a;
+  text-transform: uppercase;
+}
+
+.store-description p {
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  line-height: 215%;
+  margin: auto;
+  width: 500px;
+}
+
+.store-description .btn {
+  background-color: #3996d3;
+  border: 3px solid #297eb6;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.8em;
+  letter-spacing: 0.35px;
+  margin-top: 2.5%;
+  outline: none;
+  padding: 1.25% 1.5%;
+  transition: background-color 175ms, border 175ms;
+}
+
+.store-description .btn:hover {
+  background-color: #46a4e3;
+  border: 3px solid #297eb6;
+}
+
+.store-description .btn:active {
+  background-color: #3e454c;
+  border: 3px solid #3e454c;
+  color: #ddd;
+}
+
 /* CTA */
 .cta-container {
   background-color: aquamarine;
