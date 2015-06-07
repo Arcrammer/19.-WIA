@@ -148,7 +148,7 @@ a:active {
 }
 
 .cta-overlay {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.5);
   color: #fff;
   margin: 0;
   position: absolute;
@@ -282,6 +282,65 @@ a:active {
 .panel a:active {
   background-color: #2682BE;
   border-color: #3092D2;
+}
+
+.slide-box {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Slides */
+.slides {
+  position: relative;
+  overflow: auto;
+}
+
+.slides li {
+  color: #fff;
+  float: left;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  height: 500px;
+  list-style: none;
+  padding-top: 2.5%;
+  position: relative;
+  text-align: center;
+}
+
+.slides h4 {
+  letter-spacing: 2.5px;
+  text-shadow: 1px 0 0 #81cffb, -1px 0 0 #fd7f6a;
+}
+
+.slides h4 {
+  font-size: 1.35em;
+}
+
+.slides p {
+  font-size: 1.2em;
+  font-weight: 200;
+  margin: 0 auto;
+  line-height: 200%;
+  text-shadow: 2px 2px 0px grey;
+  width: 35%;
+}
+
+.slides li:nth-of-type(1) {
+  background-image: url("../Images/Phones/S6Edge.jpg");
+  background-position: 10% 15%;
+}
+
+.slides li:nth-of-type(2) {
+  background-image: url("../Images/Phones/Nexus6.jpg");
+}
+
+.slides li:nth-of-type(3) {
+  background-image: url("../Images/Phones/OnePlus.jpg");
+}
+
+.slides li:nth-of-type(4) {
+  background-image: url("../Images/Phones/HTCM9.jpg");
+  background-size: cover;
 }
 
 /* Footer */

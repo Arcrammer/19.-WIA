@@ -1218,8 +1218,7 @@ $(document).ready(function () {
     $("#greeting").animate({
       "top":"-155%"
     }, 2000);
-
-        $("#meatTheTeem").animate({
+    $("#meatTheTeem").animate({
       "top":"-136.5%"
     }, 2000);
   } else {
@@ -1231,4 +1230,10 @@ $(document).ready(function () {
       "top":"-85%"
     }, 2000);
   }
+  
+  // Slider
+  $(".slides").unslider({
+    "keys": true,
+    "dots": true
+  });
 });
