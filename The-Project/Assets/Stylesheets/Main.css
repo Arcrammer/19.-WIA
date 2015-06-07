@@ -290,6 +290,24 @@ a:active {
   width: 100%;
 }
 
+/* Map */
+.map-container {
+  background: url("../Images/Map.jpg") no-repeat 0 0;
+  position: relative;
+  height: 512px;
+  width: 100%;
+}
+
+.map-container a.dot {
+  background: url("../Images/Dot.png") no-repeat 0 0;
+  background-size: contain;
+  cursor: pointer;
+  display: block;
+  height: 12px;
+  position: absolute;
+  width: 12px;
+}
+
 /* Slides */
 .slides {
   position: relative;
