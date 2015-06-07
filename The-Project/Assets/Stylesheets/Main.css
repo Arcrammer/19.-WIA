@@ -148,7 +148,7 @@ a:active {
 }
 
 .cta-overlay {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
   color: #fff;
   margin: 0;
   position: absolute;
@@ -169,7 +169,14 @@ a:active {
 }
 
 #meatTheTeem {
-  left: 12.5%
+  position: relative;
+  left: 12.5%;
+}
+
+#meat-the-teem-dark {
+  position: absolute;
+  top: -31%;
+  left: 12.5%;
 }
 
 /* Panels */
@@ -394,5 +401,9 @@ img[alt="MobileDevices.jpg"] {
 /* Fonts */
 @font-face {
   font-family: "Abigail";
-  src: url("../Fonts/Abigail.ttf");
+  src: url("../Fonts/Abigail/Abigail.eot") format("embedded-opentype");
+  src: url("../Fonts/Abigail/Abigail.woff") format("woff");
+  src: url("../Fonts/Abigail/Abigail.svg") format("svg");
+  src: url("../Fonts/Abigail/Abigail.otf") format("opentype");
+  src: url("../Fonts/Abigail/Abigail.ttf") format("truetype");
 }

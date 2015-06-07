@@ -666,7 +666,7 @@ $(document).ready(function () {
     greetingDark.fill();
     
     var meatTheTeam = document.getElementById("meatTheTeem").getContext("2d");
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(323,285);
     meatTheTeam.bezierCurveTo(319,297,319,309,318,320);
@@ -676,7 +676,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(323,285);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(311,302);
     meatTheTeam.bezierCurveTo(320,302,329,300,338,300);
@@ -686,7 +686,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(311,302);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(342,299);
     meatTheTeam.bezierCurveTo(338,304,335,311,338,316);
@@ -700,7 +700,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(342,299);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(373,303);
     meatTheTeam.bezierCurveTo(377,301,379,299,381,296);
@@ -733,7 +733,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(373,303);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(418,312);
     meatTheTeam.bezierCurveTo(423,313,428,312,429,306);
@@ -749,7 +749,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(418,312);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(434,309);
     meatTheTeam.bezierCurveTo(440,310,451,311,452,303);
@@ -764,7 +764,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(434,309);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(457,303);
     meatTheTeam.bezierCurveTo(462,304,468,303,473,302);
@@ -774,7 +774,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(457,303);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(463,292);
     meatTheTeam.bezierCurveTo(460,301,460,311,459,320);
@@ -784,7 +784,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(463,292);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(493,302);
     meatTheTeam.bezierCurveTo(498,302,501,299,504,295);
@@ -808,7 +808,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(493,302);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(530,295);
     meatTheTeam.bezierCurveTo(524,297,521,304,522,310);
@@ -828,7 +828,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(530,295);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(550,301);
     meatTheTeam.bezierCurveTo(549,305,547,314,553,315);
@@ -847,7 +847,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(550,301);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(590,269);
     meatTheTeam.bezierCurveTo(588,280,585,291,585,303);
@@ -857,7 +857,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(590,269);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(587,321);
     meatTheTeam.bezierCurveTo(587,321,589,318,587,318);
@@ -865,7 +865,7 @@ $(document).ready(function () {
     meatTheTeam.bezierCurveTo(587,321,585,321,587,321);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(215,298);
     meatTheTeam.bezierCurveTo(226,299,229,288,232,280);
@@ -890,7 +890,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(215,298);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(257,300);
     meatTheTeam.bezierCurveTo(256,307,255,314,255,321);
@@ -900,7 +900,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(257,300);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(259,289);
     meatTheTeam.bezierCurveTo(259,289,261,286,259,286);
@@ -908,7 +908,7 @@ $(document).ready(function () {
     meatTheTeam.bezierCurveTo(259,289,257,289,259,289);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(284,309);
     meatTheTeam.bezierCurveTo(288,310,298,309,300,304);
@@ -926,7 +926,7 @@ $(document).ready(function () {
     meatTheTeam.lineTo(284,309);
     meatTheTeam.fill();
     
-    meatTheTeam.fillStyle="rgb(0,0,0)";
+    meatTheTeam.fillStyle="rgb(204,204,204)";
     meatTheTeam.beginPath();
     meatTheTeam.moveTo(278,298);
     meatTheTeam.bezierCurveTo(270,296,265,302,264,310);
@@ -940,11 +940,286 @@ $(document).ready(function () {
     meatTheTeam.lineTo(278,298);
     meatTheTeam.fill();
     
+    var meetTheTeamDark = document.getElementById("meat-the-teem-dark").getContext("2d");
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(323,285);
+    meetTheTeamDark.bezierCurveTo(319,297,319,309,318,320);
+    meetTheTeamDark.bezierCurveTo(318,322,321,322,321,320);
+    meetTheTeamDark.bezierCurveTo(322,309,322,297,326,286);
+    meetTheTeamDark.bezierCurveTo(326,284,323,283,323,285);
+    meetTheTeamDark.lineTo(323,285);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(311,302);
+    meetTheTeamDark.bezierCurveTo(320,302,329,300,338,300);
+    meetTheTeamDark.bezierCurveTo(340,300,340,297,338,297);
+    meetTheTeamDark.bezierCurveTo(329,297,320,299,311,299);
+    meetTheTeamDark.bezierCurveTo(309,299,309,302,311,302);
+    meetTheTeamDark.lineTo(311,302);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(342,299);
+    meetTheTeamDark.bezierCurveTo(338,304,335,311,338,316);
+    meetTheTeamDark.bezierCurveTo(341,323,348,322,354,319);
+    meetTheTeamDark.bezierCurveTo(366,311,356,294,343,297);
+    meetTheTeamDark.bezierCurveTo(341,298,342,301,344,300);
+    meetTheTeamDark.bezierCurveTo(354,298,361,310,352,316);
+    meetTheTeamDark.bezierCurveTo(348,319,342,320,340,315);
+    meetTheTeamDark.bezierCurveTo(339,310,341,305,344,301);
+    meetTheTeamDark.bezierCurveTo(345,300,343,298,342,299);
+    meetTheTeamDark.lineTo(342,299);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(373,303);
+    meetTheTeamDark.bezierCurveTo(377,301,379,299,381,296);
+    meetTheTeamDark.bezierCurveTo(380,296,379,296,379,295);
+    meetTheTeamDark.bezierCurveTo(378,304,377,312,376,321);
+    meetTheTeamDark.bezierCurveTo(376,323,379,323,379,321);
+    meetTheTeamDark.bezierCurveTo(380,313,382,305,386,298);
+    meetTheTeamDark.bezierCurveTo(388,295,393,294,393,299);
+    meetTheTeamDark.bezierCurveTo(394,302,393,306,393,309);
+    meetTheTeamDark.bezierCurveTo(392,311,395,312,395,310);
+    meetTheTeamDark.bezierCurveTo(396,307,397,305,398,302);
+    meetTheTeamDark.bezierCurveTo(399,300,407,293,407,299);
+    meetTheTeamDark.bezierCurveTo(408,305,405,311,405,316);
+    meetTheTeamDark.bezierCurveTo(404,321,404,326,409,329);
+    meetTheTeamDark.bezierCurveTo(413,331,416,330,418,326);
+    meetTheTeamDark.bezierCurveTo(419,324,417,323,416,324);
+    meetTheTeamDark.bezierCurveTo(412,330,408,325,407,320);
+    meetTheTeamDark.bezierCurveTo(407,317,408,313,409,309);
+    meetTheTeamDark.bezierCurveTo(409,306,411,299,409,296);
+    meetTheTeamDark.bezierCurveTo(407,293,403,294,400,296);
+    meetTheTeamDark.bezierCurveTo(396,299,394,305,393,309);
+    meetTheTeamDark.bezierCurveTo(393,309,394,310,395,310);
+    meetTheTeamDark.bezierCurveTo(397,305,398,288,388,292);
+    meetTheTeamDark.bezierCurveTo(379,297,377,312,376,321);
+    meetTheTeamDark.bezierCurveTo(377,321,378,321,379,321);
+    meetTheTeamDark.bezierCurveTo(380,313,381,304,382,295);
+    meetTheTeamDark.bezierCurveTo(382,294,380,293,379,295);
+    meetTheTeamDark.bezierCurveTo(377,297,375,299,372,300);
+    meetTheTeamDark.bezierCurveTo(370,301,371,304,373,303);
+    meetTheTeamDark.lineTo(373,303);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(418,312);
+    meetTheTeamDark.bezierCurveTo(423,313,428,312,429,306);
+    meetTheTeamDark.bezierCurveTo(430,302,428,297,424,296);
+    meetTheTeamDark.bezierCurveTo(417,295,412,305,413,310);
+    meetTheTeamDark.bezierCurveTo(414,319,424,324,431,319);
+    meetTheTeamDark.bezierCurveTo(433,319,432,316,430,317);
+    meetTheTeamDark.bezierCurveTo(424,320,416,316,416,309);
+    meetTheTeamDark.bezierCurveTo(416,306,419,298,424,299);
+    meetTheTeamDark.bezierCurveTo(426,300,427,304,426,306);
+    meetTheTeamDark.bezierCurveTo(426,310,422,310,419,309);
+    meetTheTeamDark.bezierCurveTo(417,308,416,311,418,312);
+    meetTheTeamDark.lineTo(418,312);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(434,309);
+    meetTheTeamDark.bezierCurveTo(440,310,451,311,452,303);
+    meetTheTeamDark.bezierCurveTo(453,297,446,294,442,296);
+    meetTheTeamDark.bezierCurveTo(433,298,431,307,434,315);
+    meetTheTeamDark.bezierCurveTo(437,323,447,325,454,320);
+    meetTheTeamDark.bezierCurveTo(456,319,454,316,453,317);
+    meetTheTeamDark.bezierCurveTo(440,327,428,306,441,299);
+    meetTheTeamDark.bezierCurveTo(444,297,450,298,449,302);
+    meetTheTeamDark.bezierCurveTo(448,308,439,307,435,307);
+    meetTheTeamDark.bezierCurveTo(433,306,432,309,434,309);
+    meetTheTeamDark.lineTo(434,309);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(457,303);
+    meetTheTeamDark.bezierCurveTo(462,304,468,303,473,302);
+    meetTheTeamDark.bezierCurveTo(475,301,474,298,472,299);
+    meetTheTeamDark.bezierCurveTo(467,300,462,301,457,300);
+    meetTheTeamDark.bezierCurveTo(455,300,455,303,457,303);
+    meetTheTeamDark.lineTo(457,303);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(463,292);
+    meetTheTeamDark.bezierCurveTo(460,301,460,311,459,320);
+    meetTheTeamDark.bezierCurveTo(459,322,462,322,462,320);
+    meetTheTeamDark.bezierCurveTo(463,311,463,302,466,293);
+    meetTheTeamDark.bezierCurveTo(467,291,464,290,463,292);
+    meetTheTeamDark.lineTo(463,292);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(493,302);
+    meetTheTeamDark.bezierCurveTo(498,302,501,299,504,295);
+    meetTheTeamDark.bezierCurveTo(503,295,502,294,502,294);
+    meetTheTeamDark.bezierCurveTo(498,300,494,314,503,317);
+    meetTheTeamDark.bezierCurveTo(512,321,518,303,520,297);
+    meetTheTeamDark.bezierCurveTo(521,295,518,294,517,296);
+    meetTheTeamDark.bezierCurveTo(515,303,515,310,513,317);
+    meetTheTeamDark.bezierCurveTo(511,325,508,329,499,327);
+    meetTheTeamDark.bezierCurveTo(489,325,478,319,470,329);
+    meetTheTeamDark.bezierCurveTo(468,330,471,332,472,331);
+    meetTheTeamDark.bezierCurveTo(481,319,495,333,506,331);
+    meetTheTeamDark.bezierCurveTo(512,330,514,325,515,321);
+    meetTheTeamDark.bezierCurveTo(518,313,517,304,520,297);
+    meetTheTeamDark.bezierCurveTo(519,296,518,296,517,296);
+    meetTheTeamDark.bezierCurveTo(515,301,512,314,505,315);
+    meetTheTeamDark.bezierCurveTo(497,316,502,298,504,295);
+    meetTheTeamDark.bezierCurveTo(505,294,503,292,502,293);
+    meetTheTeamDark.bezierCurveTo(499,296,497,299,493,299);
+    meetTheTeamDark.bezierCurveTo(491,300,491,303,493,302);
+    meetTheTeamDark.lineTo(493,302);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(530,295);
+    meetTheTeamDark.bezierCurveTo(524,297,521,304,522,310);
+    meetTheTeamDark.bezierCurveTo(523,318,530,318,536,314);
+    meetTheTeamDark.bezierCurveTo(541,311,541,304,539,299);
+    meetTheTeamDark.bezierCurveTo(536,294,531,293,529,298);
+    meetTheTeamDark.bezierCurveTo(528,299,528,300,529,300);
+    meetTheTeamDark.bezierCurveTo(536,307,551,310,553,297);
+    meetTheTeamDark.bezierCurveTo(554,295,551,294,551,296);
+    meetTheTeamDark.bezierCurveTo(549,307,536,304,531,298);
+    meetTheTeamDark.bezierCurveTo(531,299,531,299,531,300);
+    meetTheTeamDark.bezierCurveTo(533,296,536,299,537,302);
+    meetTheTeamDark.bezierCurveTo(538,306,537,310,533,312);
+    meetTheTeamDark.bezierCurveTo(529,315,525,314,525,308);
+    meetTheTeamDark.bezierCurveTo(524,304,526,300,530,298);
+    meetTheTeamDark.bezierCurveTo(532,298,531,295,530,295);
+    meetTheTeamDark.lineTo(530,295);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(550,301);
+    meetTheTeamDark.bezierCurveTo(549,305,547,314,553,315);
+    meetTheTeamDark.bezierCurveTo(563,316,565,303,567,296);
+    meetTheTeamDark.bezierCurveTo(568,294,565,294,564,295);
+    meetTheTeamDark.bezierCurveTo(562,301,560,308,562,314);
+    meetTheTeamDark.bezierCurveTo(564,320,570,321,576,319);
+    meetTheTeamDark.bezierCurveTo(578,319,577,316,575,316);
+    meetTheTeamDark.bezierCurveTo(569,318,565,316,564,309);
+    meetTheTeamDark.bezierCurveTo(564,305,566,300,567,296);
+    meetTheTeamDark.bezierCurveTo(566,296,565,296,564,295);
+    meetTheTeamDark.bezierCurveTo(563,300,562,307,558,310);
+    meetTheTeamDark.bezierCurveTo(555,312,552,312,552,308);
+    meetTheTeamDark.bezierCurveTo(552,306,552,304,553,301);
+    meetTheTeamDark.bezierCurveTo(553,300,550,299,550,301);
+    meetTheTeamDark.lineTo(550,301);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(590,269);
+    meetTheTeamDark.bezierCurveTo(588,280,585,291,585,303);
+    meetTheTeamDark.bezierCurveTo(585,305,588,304,588,303);
+    meetTheTeamDark.bezierCurveTo(588,291,591,281,593,270);
+    meetTheTeamDark.bezierCurveTo(594,268,591,267,590,269);
+    meetTheTeamDark.lineTo(590,269);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(587,321);
+    meetTheTeamDark.bezierCurveTo(587,321,589,318,587,318);
+    meetTheTeamDark.bezierCurveTo(585,318,585,321,587,321);
+    meetTheTeamDark.bezierCurveTo(587,321,585,321,587,321);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(215,298);
+    meetTheTeamDark.bezierCurveTo(226,299,229,288,232,280);
+    meetTheTeamDark.bezierCurveTo(231,280,230,280,230,280);
+    meetTheTeamDark.bezierCurveTo(228,294,226,307,224,320);
+    meetTheTeamDark.bezierCurveTo(224,322,226,323,227,321);
+    meetTheTeamDark.bezierCurveTo(228,315,230,308,232,302);
+    meetTheTeamDark.bezierCurveTo(233,297,235,293,237,289);
+    meetTheTeamDark.bezierCurveTo(238,287,240,281,243,282);
+    meetTheTeamDark.bezierCurveTo(250,283,242,302,242,306);
+    meetTheTeamDark.bezierCurveTo(240,313,240,322,249,323);
+    meetTheTeamDark.bezierCurveTo(251,323,251,320,249,320);
+    meetTheTeamDark.bezierCurveTo(238,319,247,297,248,291);
+    meetTheTeamDark.bezierCurveTo(249,287,248,276,241,279);
+    meetTheTeamDark.bezierCurveTo(234,281,232,293,230,298);
+    meetTheTeamDark.bezierCurveTo(227,305,225,313,224,320);
+    meetTheTeamDark.bezierCurveTo(225,321,226,321,227,321);
+    meetTheTeamDark.bezierCurveTo(229,307,231,294,233,280);
+    meetTheTeamDark.bezierCurveTo(233,278,230,278,230,280);
+    meetTheTeamDark.bezierCurveTo(227,286,224,296,215,295);
+    meetTheTeamDark.bezierCurveTo(214,294,214,297,215,298);
+    meetTheTeamDark.lineTo(215,298);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(257,300);
+    meetTheTeamDark.bezierCurveTo(256,307,255,314,255,321);
+    meetTheTeamDark.bezierCurveTo(255,323,258,323,258,321);
+    meetTheTeamDark.bezierCurveTo(258,314,259,307,260,300);
+    meetTheTeamDark.bezierCurveTo(260,298,257,298,257,300);
+    meetTheTeamDark.lineTo(257,300);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(259,289);
+    meetTheTeamDark.bezierCurveTo(259,289,261,286,259,286);
+    meetTheTeamDark.bezierCurveTo(257,286,257,289,259,289);
+    meetTheTeamDark.bezierCurveTo(259,289,257,289,259,289);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(284,309);
+    meetTheTeamDark.bezierCurveTo(288,310,298,309,300,304);
+    meetTheTeamDark.bezierCurveTo(301,301,298,299,296,298);
+    meetTheTeamDark.bezierCurveTo(293,296,289,298,287,300);
+    meetTheTeamDark.bezierCurveTo(281,303,281,312,282,318);
+    meetTheTeamDark.bezierCurveTo(284,325,295,323,300,320);
+    meetTheTeamDark.bezierCurveTo(302,320,300,317,298,318);
+    meetTheTeamDark.bezierCurveTo(295,319,287,322,286,318);
+    meetTheTeamDark.bezierCurveTo(284,314,285,309,286,305);
+    meetTheTeamDark.bezierCurveTo(286,303,289,301,291,301);
+    meetTheTeamDark.bezierCurveTo(293,300,299,301,296,304);
+    meetTheTeamDark.bezierCurveTo(294,306,288,307,285,306);
+    meetTheTeamDark.bezierCurveTo(283,306,282,309,284,309);
+    meetTheTeamDark.lineTo(284,309);
+    meetTheTeamDark.fill();
+    
+    meetTheTeamDark.fillStyle="rgb(204,204,204)";
+    meetTheTeamDark.beginPath();
+    meetTheTeamDark.moveTo(278,298);
+    meetTheTeamDark.bezierCurveTo(270,296,265,302,264,310);
+    meetTheTeamDark.bezierCurveTo(263,313,264,318,267,320);
+    meetTheTeamDark.bezierCurveTo(271,323,275,323,279,322);
+    meetTheTeamDark.bezierCurveTo(281,321,280,319,278,319);
+    meetTheTeamDark.bezierCurveTo(276,320,273,320,271,319);
+    meetTheTeamDark.bezierCurveTo(267,318,267,314,267,311);
+    meetTheTeamDark.bezierCurveTo(267,305,271,299,278,301);
+    meetTheTeamDark.bezierCurveTo(279,302,280,299,278,298);
+    meetTheTeamDark.lineTo(278,298);
+    meetTheTeamDark.fill();
+    
     $("#greeting").animate({
       "top":"-155%"
     }, 2000);
-    
-    $("#meatTheTeem").animate({
+
+        $("#meatTheTeem").animate({
       "top":"-136.5%"
     }, 2000);
   } else {
