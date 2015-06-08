@@ -31,7 +31,7 @@ body {
 
 /* Top Bar */
 .top-bar {
-  box-shadow: inset 0em -1px #cbcbcb, 0 0 1px 1px #cbcbcb;
+  box-shadow: inset 0em -1px #cbcbcb, 0 0 0px 5px #cbcbcb;
 }
 
 .top-bar * {
@@ -126,6 +126,7 @@ a:active {
   color: #fff;
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   height: 475px;
+  margin-top: 0.5%;
   text-align: center;
 }
 
@@ -174,7 +175,7 @@ a:active {
 /* CTA */
 .cta-container {
   background-color: aquamarine;
-  box-shadow: inset 0em -1px #cbcbcb, 0 0 1px 1px #cbcbcb;
+  box-shadow: inset 0em -1px #cbcbcb, 0 0 0px 5px #cbcbcb;
   height: 550px;
   position: relative;
   overflow: hidden;
@@ -344,9 +345,10 @@ a:active {
 
 /* Map */
 .map-container {
-  background: url("../Images/Map.jpg") no-repeat 0 0;
+  background: url("../Images/Map.jpg") no-repeat center center;
+  box-shadow: inset 0em -1px #cbcbcb, 0 0 0px 5px #cbcbcb;
   position: relative;
-  height: 512px;
+  height: 545px;
   width: 100%;
 }
 
@@ -362,6 +364,8 @@ a:active {
 
 /* Slides */
 .slides {
+  box-shadow: inset 0em -1px #cbcbcb, 0 0 0px 5px #cbcbcb;
+  margin: 0.5% 0;
   position: relative;
   overflow: auto;
 }
@@ -416,6 +420,7 @@ a:active {
 /* Footer */
 footer {
   background-color: #f5f6f6;
+  box-shadow: inset 0em -1px #cbcbcb, 0 0 0px 5px #cbcbcb;
   padding: 5% 0;
   overflow: auto;
 }
